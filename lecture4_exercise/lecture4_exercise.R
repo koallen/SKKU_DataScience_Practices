@@ -8,7 +8,7 @@
 rm(list=ls(all=TRUE))
 
 # read in data
-P <- read.csv("../data_sets/UNdata_precipitation.csv")
+P <- read.csv("UNdata_precipitation.csv")
 
 # (1) Compare the precipitation from 1999 to 2005.  Are they different?
 y1999 <- P[P$Year==1999,]
