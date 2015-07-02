@@ -1,7 +1,7 @@
 # SKKU ISS 2015, Lecture 4
 # Objective: plotting open government data
 
-# Jevin West
+# Siyuan Liu
 # Date:  7/2/2015
 
 # clean variables
