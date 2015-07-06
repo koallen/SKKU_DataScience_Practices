@@ -21,3 +21,8 @@ r10000_1 <- sample(1:6, 10000, replace=T)
 r10000_2 <- sample(1:6, 10000, replace=T)
 r10000 <- r10000_1 + r10000_2
 hist(r10000)
+plot(ecdf(r10000))
+
+# some other codes
+numbers <- rnorm(10000)
+plot(numbers, dnorm(numbers), type="h")
